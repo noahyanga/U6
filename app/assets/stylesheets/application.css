@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+.missing-emails-page h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.missing-emails-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.missing-emails-page li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+}
+
+.missing-emails-page li strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.missing-emails-page li span {
+  font-size: 14px;
+  color: #666;
+}

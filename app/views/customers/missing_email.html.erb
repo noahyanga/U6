@@ -1,0 +1,10 @@
+<h1 class="title">Customers Missing Email</h1>
+
+<div class="actions">
+  <%= link_to 'Back to All Customers', root_path, class: 'button is-link' %>
+  <%= link_to 'View Alphabetized Customers', customers_alphabetized_path, class: 'button is-link' %>
+</div>
+
+<% @customers.each do |customer| %>
+  <%= render 'customer', customer: customer %>
+<% end %>
